@@ -9,11 +9,28 @@ import UIKit
 
 class DashboardViewController: UIViewController {
 
+    
+    @IBOutlet weak var statusCard: UIView!
+    @IBOutlet weak var statusValue: UILabel!
+    @IBOutlet weak var statusBadge: UILabel!
+    @IBOutlet weak var statusSublabel: UILabel!
+    
+    
+    @IBOutlet weak var addDeviceButton: UIView!
+    @IBOutlet weak var logsButton: UIView!
+    
+    @IBOutlet weak var alert1: UIView!
+    @IBOutlet weak var alert2: UIView!
+    @IBOutlet weak var alert3: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    
     
 
     /*
