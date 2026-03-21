@@ -16,8 +16,9 @@ class DashboardViewController: UIViewController {
     @IBOutlet weak var statusSublabel: UILabel!
     
     
-    @IBOutlet weak var addDeviceButton: UIView!
-    @IBOutlet weak var logsButton: UIView!
+    @IBOutlet weak var addDeviceButton: UIButton!
+    @IBOutlet weak var logsButton: UIButton!
+    
     
     @IBOutlet weak var alert1: UIView!
     @IBOutlet weak var alert2: UIView!
@@ -31,6 +32,12 @@ class DashboardViewController: UIViewController {
     }
     
     
+    @IBAction func addDeviceTapped(_ sender: Any) {
+    }
+    
+    
+    @IBAction func logsTapped(_ sender: Any) {
+    }
     
 
     /*
