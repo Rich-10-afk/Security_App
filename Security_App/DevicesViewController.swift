@@ -59,8 +59,8 @@ class DevicesViewController: UIViewController, UITableViewDelegate, UITableViewD
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDeviceDetails" {
-            // let destination = segue.destination as! DeviceDetailsViewController
-            //destination.device = sender as? Device
+            let destination = segue.destination as! DeviceDetailsViewController
+            destination.device = sender as? Device
         }
     }
 }
